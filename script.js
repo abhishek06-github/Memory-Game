@@ -155,7 +155,8 @@ const matrixGenerator = (cardValues, size = 4) => {
 // Start Game
 startButton.addEventListener("click", () => {
     movesCount = 0;
-    time = 0;
+    seconds = 0;
+    minutes = 0;
     // controls and buttons visibility
     controls.classList.add("hide");
     stopButton.classList.remove("hide");
